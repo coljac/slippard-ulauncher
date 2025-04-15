@@ -1,0 +1,19 @@
+{
+  "required_api_version": "2",
+  "name": "Slippard",
+  "description": "Access and copy keys from your slippard keystore to clipboard",
+  "developer_name": "Colin Jacobs",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "keystore_access",
+      "type": "keyword",
+      "name": "Keystore",
+      "description": "Access and copy keys from your keystore",
+      "default_value": "key"
+    }
+  ]
+}
